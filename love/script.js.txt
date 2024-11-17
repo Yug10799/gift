@@ -1,0 +1,10 @@
+// JavaScript for additional interactivity (if you want it)
+
+const message = document.getElementById("typed-text");
+
+// Custom message typing effect
+window.onload = () => {
+    setTimeout(() => {
+        message.style.opacity = 1;
+    }, 3000);
+};
